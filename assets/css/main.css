@@ -1,0 +1,118 @@
+/* Open Sans font */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+}
+
+body { 
+    font-size: 15px;
+    background: #f8f8f8;
+    font-family: 'OpenSans', helvetica, sans-serif; 
+}
+
+header {
+    margin:2em auto;
+    width: 820px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: 300;
+}
+h2 {
+    font-size: 2em;
+    font-weight: 300;   
+}
+h3 {
+    font-size: 1.5em;
+    font-weight: 300;   
+}
+header h2 {
+    padding-top: .7em;
+}
+
+strong {
+    font-weight: 500;
+}
+
+dt {
+    font-size: 2em;
+    font-weight: 300;
+    padding: .8em 0 .4em 0;
+}
+
+dd {
+    margin: 0;
+    font-size: 1.15em;
+    font-weight: 300;
+}
+
+ol {
+    margin: 0 0 1em 0;
+}
+
+li {
+    padding: 0.2em;
+}
+
+
+a {
+    color: #15B2C2;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+footer {
+    padding: 1em;
+    width: 820px;
+    margin: 0 auto;
+    color: #666;
+    border-top: 1px dotted #666;
+    margin-top: 5em; 
+    text-align: center;
+}
+
+main {
+    position: relative;
+    margin: 0px auto;
+    width: 820px;
+    padding: 10px;
+}
+
+main > #sticky {
+    color: #FFF;
+    font-size: 1.5em;
+    padding: 1em;
+    text-align: center;
+    background: #15b2c2;
+}
+
+main .content {
+    margin-top: 3em;
+}
+
+main .content h3 {
+    margin: 1.2em 0;
+}
+
+/* Syntax (Lucario Theme) */
+.code {
+  background: #2B3E50;
+  color: #f8f8f2;
+  border-radius: 2px;
+  padding: 20px;
+  letter-spacing: .05em;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  margin: 1em;
+}
+.tag { color: #FA683E; }
+.attr { color: #69CF5F; }
+.el { color: #a6e22e; }
+.var { color: lightblue; }
+.property { color: #e6db74; }
