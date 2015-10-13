@@ -55,5 +55,5 @@ window.addEventListener('load', function(){
         }
     }
     sticky();
-    window.onscroll = sticky;
+    window.addEventListener('scroll', sticky);
 }, false);
