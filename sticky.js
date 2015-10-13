@@ -15,9 +15,8 @@ function sumOffsetTops(el){
 function preserveWidth(stickable){
     // It is essential when working with table.
     var descendants = [].slice.call(stickable.querySelectorAll('*'));
-    descendants.forEach(function(descendant){
-        var style = window.getComputedStyle(descendant);
-        descendant.width = parseInt(style.width, 10);
+    [stickable].concat(descendants).forEach(function(el){
+        el.style.width = window.getComputedStyle(el).width;
     });
 }
 
