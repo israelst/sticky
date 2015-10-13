@@ -9,7 +9,7 @@ function parentTable(el){
 
 function sumOffsetTops(el){
     if(el === null) return 0;
-        return el.offsetTop + sumOffsetTops(el.offsetParent);
+    return el.offsetTop + sumOffsetTops(el.offsetParent);
 }
 
 function preserveWidth(stickable){
